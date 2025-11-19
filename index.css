@@ -35,8 +35,8 @@
     --line-height-small: 1.2;
 
     --black: #000;
-    --grayblue: #1c2230;
-    --gray: #1a1a1d
+    --grayblue: #171c27;
+    --gray: #1a1a1d;
     --pink: #ff3258;
     --white: #f0e9f2;
     --white-1: #e5e5e6da;
@@ -586,4 +586,14 @@ body:not(.user-is-tabbing) a:focus {
     .footer {
         padding: var(--gutter-medium) 0;
     } 
+}
+
+
+/* --------------------------------------- */
+/* ----- Custom Readability Fix ----- */
+/* --------------------------------------- */
+
+.header__text .heading-primary span,
+.header__text p {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
 }
